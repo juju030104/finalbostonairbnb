@@ -7,7 +7,7 @@ import seaborn as sns
 # data
 @st.cache_data
 def get_airbnb_data():
-    return pd.read_csv("finalproject/listings.csv")
+    return pd.read_csv("listings.csv")
 
 airbnb_data = get_airbnb_data()
 
