@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
-import seaborn as sns
 
 # data
 @st.cache_data
