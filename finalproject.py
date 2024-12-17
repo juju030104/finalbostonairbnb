@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 # data
 @st.cache_data
 def get_airbnb_data():
